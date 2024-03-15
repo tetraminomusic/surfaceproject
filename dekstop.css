@@ -1,0 +1,374 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+header {
+	background-image: url(images/football_1920.jpg);
+	/*background-color: blue;*/
+	height: 98vh;
+	text-align: center;
+}
+.blue {
+	width: 100%;
+	height: 98vh;
+	background-color: #0f0636;
+	opacity: 85%;
+	position: absolute;
+}
+
+.svg_header {
+	width: 200px;
+	margin-top: 20px;
+	z-index: 1;
+	position: relative;
+}
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Inter', sans-serif;
+	font-size: 75px;
+	margin-top: 32vh;
+}
+.be {
+	margin-left: 7%;
+	margin-right: 23%;
+	z-index: 1;
+	position: relative;
+}
+.pl {
+	margin-left: 20%;
+	margin-right: 5%;
+	z-index: 1;
+	position: relative;
+}
+.store {
+	width: 300px;
+	color: white;
+	background-color: #5c3eb2;
+	border-radius: 70px;
+	display: flex;
+	padding: 0 10px;
+	justify-content: space-around;
+	text-decoration: none;
+	z-index: 1;
+	position: relative;
+	margin-top: 60px;
+	overflow: hidden;
+}
+.store svg {
+	width: 50px;
+}
+
+.butt {
+	display: flex;
+	justify-content: space-around;
+	width: 750px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+
+.pulse {
+	
+	background-color: #0f0636;
+	border-radius: 50%;
+	animation: pulse 0.6s ease-out;
+	transform: scale(0);
+	position: absolute;
+}
+
+@keyframes pulse{
+	to {
+		transform: scale(2);
+		background-color: #fff;
+		opacity: 0;
+ }
+}
+
+.store p {
+	font-size: 20px;
+}
+
+.store2 {
+	width: 300px;
+	color: white;
+	background-color: #5c3eb2;
+	border-radius: 70px;
+	display: flex;
+	padding: 0 10px;
+	justify-content: space-around;
+	text-decoration: none;
+	z-index: 1;
+	position: relative;
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.store2 p {
+	font-size: 20px;
+}
+
+.store2 svg {
+	width: 50px;
+}
+
+.athlets {
+	position: relative;
+}
+.at01, .at02, .at03 {
+	height: 125px;
+}
+.at01 {
+	padding-left: 55%;
+	padding-top: 50px;
+}
+.at02 {
+	background-color: #f4f3f8;
+	padding-left: 55%;
+	padding-top: 50px;
+}
+.at03 {
+	background-color: #5c3eb2;
+	padding-left: 55%;
+	padding-top: 50px;
+	color: black;
+}
+.runner {
+	color: gray;
+	font-size: 60px;
+	text-transform: uppercase;
+	padding-left: 55%;
+	padding-top: 75px; 
+}
+.sportsmen {
+	width: 200px;
+}
+
+.at011, .at022, .at033 {
+	width: 20px;
+	display: inline;
+	margin-right: 5px;
+
+}
+.at011, .at022 {
+	border-bottom: 3px black solid;
+}
+.at033 {
+	border-bottom: 3px white solid;
+	color: white;
+}
+.athlets h3 {
+	color: gray;
+	font-size: 22px;
+	display: inline;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.at0 {
+	color: gray;
+}
+.at03 .at0 {
+	color: white;
+}
+.at03 h3 {
+	color: white;
+}
+.branch-preview-athlete {
+	position: absolute;
+	top: -40px;
+	right: 47%;
+}
+.players {
+	color: gray;
+	font-size: 60px;
+	text-transform: uppercase;
+	padding-left: 10%;
+	padding-top: 100px; 
+}
+
+.basketballer {
+	position: absolute;
+}
+
+.at11, .at12, .at13 {
+	height: 125px;
+}
+.at11 {
+	padding-left: 10%;
+	padding-top: 50px;
+}
+.at12 {
+	background-color: #f4f3f8;
+	padding-left: 10%;
+	padding-top: 50px;
+}
+.at13 {
+	background-color: #5c3eb2;
+	padding-left: 10%;
+	padding-top: 50px;
+	color: black;
+}
+.at111, .at122, .at133 {
+	width: 20px;
+	display: inline;
+	margin-right: 5px;	
+}
+.at0 {
+	color: gray;
+}
+.at13 .at0 {
+	color: white;
+}
+.at13 h3 {
+	color: white;
+}
+.at111, .at122 {
+	border-bottom: 3px black solid;
+}
+.at133 {
+	border-bottom: 3px white solid;
+	color: white;
+}
+
+.player h3 {
+	color: gray;
+	font-size: 22px;
+	display: inline;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.player {
+	position: relative;
+}
+.player picture {
+	top: 0;
+	right: 5%;
+}
+.be_active {
+	display: flex;
+	width: 100%;
+}
+.active {
+	width: 50%;
+	position: relative;
+}
+.active img {
+ width: 100%;
+
+}
+.right {
+	display: block;
+	width: 44%;
+	position: relative;
+	padding: 40px 3%;
+}
+.number {
+	display: flex;
+	width: 70px;
+	height: 70px;
+	background-color: #5c3eb2;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: -35px;
+	top: 50px;
+}
+.number p, .number2 p, .number3 p {
+	border-bottom: 3px white solid;
+}
+.right h2, .left h2 {
+	color: gray;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.righttxt, .lefttxt {
+	color: gray;
+}
+.be_active2 {
+	display: flex;
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+}
+.left {
+	display: block;
+	width: 44%;
+	position: relative;
+	padding: 40px 3%;
+}
+.active2 img {
+ width: 100%;
+}
+.active2 {
+	width: 50%;
+}
+.number2 {
+	display: flex;
+	width: 70px;
+	height: 70px;
+	background-color: #5c3eb2;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: -35px;
+	top: 50px;
+}
+
+footer {
+	width: 100%;
+	background-image: url(images/game_1920.jpg);
+	background-repeat: no-repeat;
+	height: 75vh;
+	padding-top: 100px;
+	position: relative;
+}
+.end {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+.end svg {
+	width: 80px;
+	z-index: 1;
+	position: relative;
+	background-color: #5c3eb2;
+	height: 80px;
+	border-radius: 20px;
+	padding: 4px;
+	align-self: center;
+
+}
+.svg_header2 {
+	width: 200px;
+	z-index: 1;
+	position: absolute;
+	bottom: 30px;
+	left: 44%;
+	
+}
+.logo {
+	padding-left: 10px; 
+	color: white;
+	text-transform: uppercase;
+	z-index: 1;
+}
+.logo h2 {
+	font-size: 50px;
+	margin: 0;
+}
+.blue2 {
+	width: 100%;
+	height: 75vh;
+	background-color: #0f0636;
+	opacity: 85%;
+	position: absolute;
+	top: 0;
+	padding: 50px 0;
+}
+#at13g {
+	color: white;
+}

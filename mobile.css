@@ -1,0 +1,153 @@
+@media(max-width: 640px) {
+	/*header {
+		height: 70vh;
+	}*/
+	.butt {
+		width: 200px;
+	}
+	.butt a {
+		justify-content: center;
+	}
+	.butt a p {
+		margin-left: 40px;
+	}
+	.runner, .players {
+		font-size: 50px;
+		padding: 0;
+		letter-spacing: 4px;
+		padding-left: 10px;
+		color: gray;
+	}
+	.branch-preview-athlete {
+		width: 100%;
+		position: static;
+		padding-left: 26%;
+	}
+	.basketballer {
+		position: static;
+		padding-left: 7%;
+	}
+	header {
+		height: 90vh;
+		background-repeat: no-repeat;
+	}
+	.blue {
+		height: 90vh;
+		text-align: center;
+	}
+	header h1 {
+		margin: 60px 0;
+		text-align: left;
+	}
+	.be {
+		width: 100%;
+		margin: 30px;
+		font-size: 40px;
+	}
+	.pl {
+		font-size: 40px;
+		margin: 0;
+		margin-left: 30px;
+		display: block;
+	}
+	.at01, .at02, .at03 {
+		padding-left: 30px;
+	}
+	.butt {
+		display: block;
+		margin: 0;
+		width: 100%;
+		padding: 0 auto;
+	}
+	.store {
+		margin: 30px auto;
+		width: 90%;
+		padding: 5px;
+		overflow: hidden;
+	}
+	.store2 {
+		margin: 30px auto;
+		width: 90%;
+		padding: 5px;
+		overflow: hidden;
+	}	
+	.pulse {
+	
+	background-color: #0f0636;
+	border-radius: 50%;
+	animation: pulse 0.6s ease-out;
+	transform: scale(0);
+	position: absolute;
+}
+
+@keyframes pulse{
+	to {
+		transform: scale(2);
+		background-color: #fff;
+		opacity: 0;
+ }
+} 
+	.store p {
+		font-size: 15px;
+	}
+	.store2 p {
+		font-size: 15px;
+	}	
+	.be_active {
+		display: block;
+	}	
+	.right {
+		width: 100%;
+	}
+	.number {
+		left: 20px;
+		top: -50px;
+	}
+	.right {
+		box-sizing: border-box; 
+	}
+	.be_active2 {
+		display: block;
+		height: 717px;
+	}
+	.left {
+		position: absolute;
+		bottom: 5%;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.active2 img {
+		position: absolute;
+	}
+	.number2 {
+		right: 40px;
+		top: -70px;
+		z-index: 1;
+	}
+
+	.end {
+		display: block;
+	}
+	.logo h2, .logo p {
+		z-index: 1;
+		position: relative;
+		width: 100%;
+	}
+	.end svg {
+		margin: 0 auto;
+		display: block;
+		width: 60px;
+		height: 60px;
+	}
+	.logo h2 {
+		font-size: 30px;
+	}
+	.logo {
+		text-align: center;
+		padding-top : 60px;
+		padding-left: 0;
+	}
+	.svg_header2 {
+		display: block;
+		left: 23%;
+	}
